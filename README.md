@@ -17,6 +17,11 @@ Once you have access to the environment variables you'll need, deploy the exampl
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
+```zsh
+npx create-next-app@latest --typscript --eslint --example with-mongodb vercel-mongodb-demo -y
+
+```
+
 ```bash
 npx create-next-app --example with-mongodb with-mongodb-app
 ```
