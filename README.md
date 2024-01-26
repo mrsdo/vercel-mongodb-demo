@@ -36,9 +36,14 @@ pnpm create next-app --example with-mongodb with-mongodb-app
 
 ## Configuration
 
-### Set up a MongoDB database
+### Set up a MongoDB database with Mongoose
 
 Set up a MongoDB database either locally or with [MongoDB Atlas for free](https://mongodb.com/atlas).
+
+```zsh
+npm install mongoose
+
+```
 
 ### Set up environment variables
 
